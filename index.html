@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+</head>
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+<body>
+<div>
+    <table id="table">
+        <tr>
+            <th>ID</th>
+            <th>PARENT ID</th>
+            <th onclick="filterColumn()">IS ACTIVE</th>
+            <th>BALANCE</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+        </tr>
+
+    </table>
+</div>
+<script src="data.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
